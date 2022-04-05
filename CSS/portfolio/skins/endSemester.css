@@ -1612,7 +1612,7 @@ body.dark .style-switcher .color-8 {
 /* =========== Responsive view ================ */
 
 @media (max-width: 991px) {
-    .bg-animation-effect {
+    .bg-animation-effect > div {
        display:none;
     }
     .details h1 {

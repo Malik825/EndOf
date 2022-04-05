@@ -1612,7 +1612,15 @@ body.dark .style-switcher .color-8 {
 /* =========== Responsive view ================ */
 
 @media (max-width: 991px) {
-   
+   .bg-animation-effect div {
+    height: 4px;
+    width: 4px;
+    background: var(--skin-color);
+    margin-left: calc((100% - 30px) / 11);
+    border-radius: 50%;
+    opacity: .8;
+        display: ;
+}
     .details h1 {
         font-size: 60px;
     }

@@ -81,7 +81,7 @@
       $(window).on("load", function() {
           setTimeout(function() {
               $(".preloader").fadeOut("fast");
-          }, 2200);
+          }, 1200);
       });
       $("ul li a").on("click", function(e) {
           e.preventDefault();

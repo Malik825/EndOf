@@ -1613,13 +1613,8 @@ body.dark .style-switcher .color-8 {
 
 @media (max-width: 991px) {
    .bg-animation-effect div {
-    height: 4px;
-    width: 4px;
-    background: var(--skin-color);
-    margin-left: calc((100% - 30px) / 11);
-    border-radius: 50%;
-    opacity: .8;
-        display: ;
+  
+        display:none ;
 }
     .details h1 {
         font-size: 60px;
@@ -1643,7 +1638,7 @@ body.dark .style-switcher .color-8 {
         display: none;
     }
     .leftSide.active .logo a {
-        font-size: 25px;
+        font-size: 20px;
     }
     .about .details .btn {
         width: 90%;
@@ -1741,7 +1736,7 @@ body.dark .style-switcher .color-8 {
     }
     .about .details p {
         width: 100%;
-        font-size: 15px;
+        font-size: 14px;
         /* color: red; */
         text-align: left;
         padding-left: 2rem;
@@ -1887,8 +1882,7 @@ body.dark .style-switcher .color-8 {
         margin: 0 auto !important;
     }
     .leftSide.active2 {
-        background: #2b2c2f;
-        ;
+        background: #eff0f4;
         box-shadow: none !important;
         border-right: 1px solid rgba(255, 255, 255, .5);
         transform: translateX(0%);
@@ -1973,5 +1967,8 @@ body.dark .style-switcher .color-8 {
     }
     .copy .social-links a {
         transform: rotate(0deg);
+        
+        font-size: 14px !important;
+        
     }
 }
